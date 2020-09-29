@@ -1,7 +1,13 @@
-main()
+#include<stdio.h>
+
+int main()
 {
+  
 int x;
-x = 23|56;
+x = 23 | 56;
 printf("%d",x);
-getch();
+return 0;
 }
+
+
+/* | represents arithmetic OR */
